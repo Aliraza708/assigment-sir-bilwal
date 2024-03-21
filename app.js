@@ -38,7 +38,7 @@ console.log("question 5 start");
 // question 5  print 7 table 
 
 for (var i = 1; i <=10; i++){
-    console.log("7"+ " * "+ i +" " +  "= " + i*7)
+    console.log("7"+ " x "+ i +" " +  " = " + i*7)
 }
 
 console.log("question 6 start");
@@ -52,27 +52,27 @@ for (var i = 1; i <= 10 ; i++){
 //  question 7   Fibonacci series up to the 10th term.
 
 console.log("question 7 start");
-let n1 = 0, n2 = 1, nextTerm;
+var n1 = 0, n2 = 1, nextTerm;
 
 console.log("Fibonacci Series:");
 
-for (let i = 1; i <= 10; i++) {
+for (var i = 1; i <= 10; i++) {
     console.log(n1);
     nextTerm = n1 + n2;
     n1 = n2;
     n2 = nextTerm;
 }
 
-//  question 8  the largest element in an array (let's say [3, 7, 2, 9, 5]).
+//  question 8  the largest element in an array (var's say [3, 7, 2, 9, 5]).
 
 console.log("question 8 start");
 
-let array = [3, 7, 2, 9, 5];
-let largest = array[0]; // Assume the first element is the largest
+var array = [3, 7, 2, 9, 5];
+var largest = array[0]; 
 
-for (let i = 1; i < array.length; i++) {
+for (var i = 1; i < array.length; i++) {
     if (array[i] > largest) {
-        largest = array[i]; // Update largest if current element is greater
+        largest = array[i]; 
     }
 }
 
